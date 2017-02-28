@@ -1,1 +1,0 @@
-# Lesson6_Krishtapovich
