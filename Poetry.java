@@ -3,7 +3,7 @@ package by.epam.les6.task;
 
 public class Poetry extends  LiteraryWork{
 	
-	String subType; // ode, fable
+	String subType; // ode, fable // куда исчезли атрибуты доступа?
 	String rhyme ; // iambus, blank verse
 
 	Poetry(String writer, String title, int yearCreated, LiteraryWorkType type, String subtype, String rhyme ) {
@@ -60,7 +60,7 @@ public class Poetry extends  LiteraryWork{
 		this.rhyme = rhyme;
 	}
 	
-	
+	// к этому таску мы уже научились отделять ввод-вывод данных от остального кода
 	public void show(){
 		System.out.println("The Poetry item!");
 
